@@ -10,6 +10,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Sign in</title>
+        <link rel="stylesheet" href="styles.css">
     </head>
     <body>
         <div align="center">
