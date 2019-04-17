@@ -10,6 +10,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Bio</title>
+        <link rel="stylesheet" href="aboutus.css">
     </head>
     <body>
         <div align="center">
@@ -24,20 +25,20 @@
         %>
          <div>
             <form action="Logout">
-                <p>Hello, ${username}!
-                    <a href="game.jsp">Game Page</a>
-                <a href="stats.jsp">Statistics</a>
-                
-                <input type="submit" value="Logout"></p>
+                <ul class="ulc">
+                  <li class="firstel">Hello, ${username}!</li>
+                  <li li class="navi"><a href="game.jsp">Game Page</a></li>
+                  <li li class="navi"><a href="stats.jsp">Statistics</a></li>
+                  <li li class="navi"><input type="submit" value="Logout" class="logo"></p></li>
             </form>
         </div> 
-        <div>
-        Prod. by MishGUN 2019<br>
-        All rights are all right
+         <div class="texts">
+        <h2>Prod. by MishGUN 2019<br>
+        All rights are all right<br></h3>
         </div>
-        <div> 
-            <p>Such a lovely song..</p>
-            <iframe width="480" height="320" src="https://www.youtube.com/embed/em0MknB6wFo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div  class="video"> 
+            <p class="ps">Such a lovely song..</p>
+            <iframe width="720" height="500" src="https://www.youtube.com/embed/em0MknB6wFo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="frame"></iframe>
         </div>
     </div>
         </body>

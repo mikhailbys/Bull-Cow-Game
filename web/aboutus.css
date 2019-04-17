@@ -1,0 +1,102 @@
+
+.logo
+{
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 13px 96px;
+  text-decoration: none;
+  margin: 1px 2px;
+  cursor: pointer;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 16px;
+}
+input[type=text]
+{
+  width: 10%;
+  padding: 12px 15px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+input[type=text]:focus 
+{
+  background-color: rgba(236, 244, 247, 0.685);
+}
+p
+{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
+}
+.ps
+{
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+margin: 20px;
+background: #4CAF50;
+padding: 15px; 
+}
+.ulc 
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+li a 
+{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 96px;
+  text-decoration: none;
+}
+.navi 
+{
+  float: left;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.firstel
+{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 18px 16px;
+  text-decoration: none;  
+  float: left;
+}
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+.active {
+  background-color: #4CAF50;
+}
+.texts
+{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 20px;
+  background: #4CAF50;
+  padding: 20px; 
+  color: white; 
+}
+.video
+{
+  background: #4CAF50;
+  color: white; 
+  margin: 20px;
+  margin-top: 10px;
+}
+.frame
+{
+background: #4CAF50;
+  color: white; 
+  margin-top: 1px;
+  margin-bottom: 60px;
+}
+h3
+{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background: #4CAF50;
+  color: white; 
+  margin-top: 10px;
+  margin-bottom: 5px;
+}

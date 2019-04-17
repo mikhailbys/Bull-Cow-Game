@@ -10,6 +10,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Bull-Cow Game</title>
+        <link rel="stylesheet" href="game.css">
     </head>
     <body>
         <div align="center">
@@ -22,32 +23,37 @@
             if(session.getAttribute("username")==null)
                 {response.sendRedirect("index.jsp");}
         %>
+       
         <div>
             <form action="Logout">
-                <p>Hello, ${username}!
-                <a href="stats.jsp">Statistics</a>
-                <a href="aboutus.jsp">About Us</a>
-                <input type="submit" value="Logout"></p>
+                <ul class="ulc">
+                <li class="firstel">Hello, ${username}!</li>
+                <li class="navi"><a href="stats.jsp">Statistics</a></li>
+                <li class="navi"><a href="aboutus.jsp">About Us</a></li>
+                <li class="navi"><input type="submit" value="Logout" class="logo"></p></li>
+                </ul>
             </form>
         </div> 
         <h2>The Bull-Cow Game</h2>
-        <ul>
+       <div>
+        <ul class="enums">
             <li>You're about to guess a 4-digit number</li>
             <li>The digits are all distinct</li>
             <li>Cows means number of right digits, without considering it's position</li>
             <li>Bulls represents both right digit and position</li>
             <li>Good Luck!</li>
         </ul>
-        <div>
+    </div>
+          <div>
             <form action="Generate">
             <p>At first, generate random number!</p>
-             <input type="submit" value="Generate">
+             <input type="submit" value="Generate" class="subs">
             </form>
         </div>
          <p>Guess the number:</p>
          <form action="Check" method="post">
-             <input name="guess" value="">
-             <input type="submit" value="Check">
+             <input type="text" name="guess" value="">
+             <input type="submit" value="Check" class="subs">
          </form><br>
         <div>
             <% 
